@@ -16,11 +16,6 @@ variable "tags" {
   }
 }
 
-variable "resource-policy-id" {
-  type = string
-  default = null
-}
-
 variable "resource-policy-params" {
   type = string
   default = null
@@ -29,11 +24,6 @@ variable "resource-policy-params" {
 
 variable "policy-name" {
   type = string
-}
-
-variable "policy-display-name" {
-  type = string
-  default = "Policy Managed By Terraform"
 }
 
 variable "policy-type" {
