@@ -15,13 +15,3 @@ variable "tags" {
     Owner = "Not Set"
   }
 }
-
-variable "resource-policy-id" {
-  type = string
-  default = null
-}
-
-variable "resource-policy-params" {
-  type = string
-  default = null
-}
